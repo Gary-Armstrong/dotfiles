@@ -1,0 +1,13 @@
+Host *.sun.weather.com
+User gary.armstrong
+
+Host 192.168.233.130
+User garmstrong
+
+Host 192.168.60.16
+User garmstrong
+
+# qafodhead4x00
+Host 10.224.63.49
+User fod
+IdentityFile ~/.ssh/id_rsa.qafod
