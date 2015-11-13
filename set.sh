@@ -4,6 +4,12 @@
 # this is still bad
 # make better later
 
+# let's just not do anything if we are not on the Mac
+# MACHTYPE=x86_64-apple-darwin15
+if [[ $MACHTYPE != *apple* ]];then
+  exit 1
+fi
+
 if [[ ! -f ~/.ssh/config.orig ]];then
   /bin/cp -p ~/.ssh/config ~/.ssh/config.orig 
 fi
