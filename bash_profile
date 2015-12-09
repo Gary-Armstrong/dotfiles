@@ -4,6 +4,11 @@ export CLICOLOR=1
 
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
+# for ChefDK rspec & chefspec
+export PATH=/Users/gary.armstrong/.chefdk/gem/ruby/2.1.0/bin:$PATH
+
 set -o vi
 
 alias vim="/usr/local/Cellar/vim/7.4.903/bin/vim"
+
+ssh-add ~/.ssh/* 2>/dev/null

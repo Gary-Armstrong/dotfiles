@@ -11,3 +11,7 @@ User garmstrong
 Host 10.224.63.49
 User fod
 IdentityFile ~/.ssh/id_rsa.qafod
+
+Host qa?odserver*
+User root
+IdentityFile ~/.ssh/sunfod-qa-us-east-1-general
